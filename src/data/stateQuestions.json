@@ -1,0 +1,151 @@
+[
+{
+"state": "Alabama",
+"options": ["Birmingham", "Montgomery", "Huntsville"]},
+{
+"state": "Alaska",
+"options": ["Junea", "Anchorage", "Fairbanks"]},
+{
+"state":"Arizona",
+"options" : ["Phoenix","Tuscon","Mesa"]},
+{
+"state":"Arkansas",
+"options" : ["Little Rock","Fort Smith","Fayetteville"]},
+{
+"state":"California",
+"options" : ["Sacramento","Los Angeles","San Diego"]},
+{
+"state":"Colorado",
+"options" : ["Denver","Colorado Springs","Aurora"]},
+{
+"state":"Connecticut",
+"options" : ["Hartford","Bridgeport","New Haven"]},
+{
+"state":"Delaware",
+"options" : ["Dover","Wilmington","Newark"]},
+{
+"state":"Florida",
+"options" : ["Tallahassee","Jacksonville","Miami"]},
+{
+"state":"Georgia",
+"options" : ["Atlanta","Colmbus","Augusta"]},
+{
+"state":"Hawaii",
+"options" : ["Honolulu","Hilo","Kailua"]},
+{
+"state":"Idaho",
+"options" : ["Boise","Meridian","Nampa"]},
+{
+"state":"Illinois",
+"options" : ["Springfield","Chicago","Aurora"]},
+{
+"state":"Indiana",
+"options" : ["Indianapolis","Fort Wayne","Evansville"]},
+{
+"state":"Iowa",
+"options" : ["Des Moines","Cedar Rapids","Davenport"]},
+{
+"state":"Kansas",
+"options" : ["Wichita","Overland Park","Kansas City"]},
+{
+"state":"Kentucky",
+"options" : ["Frankfort","Louisville","Lexington"]},
+{
+"state":"Louisiana",
+"options" : ["Baton Rouge","New Orleans","Shreveport"]},
+{
+"state":"Maine",
+"options" : ["Augusta","Portland","Lewiston"]},
+{
+"state":"Maryland",
+"options" : ["Annapolis","Baltimore","Frederick"]},
+{
+"state":"Massachusetts",
+"options" : ["Boston","Worcester","Springfield"]},
+{
+"state":"Michigan",
+"options" : ["Lansing","Detroit","Grand Rapids"]},
+{
+"state":"Minnesota",
+"options" : ["Minneapolis","Saint Paul","Rochester"]},
+{
+"state":"Mississippi",
+"options" : ["Jackson","Gulfport","Southaven"]},
+{
+"state":"Missouri",
+"options" : ["Jefferson City","Kansas City","Saint Louise"]},
+{
+"state":"Montana",
+"options" : ["Helena","Billings","Missoula"]},
+{
+"state":"Nebraska",
+"options" : ["Lincoln","Omaha","Bellevue"]},
+{
+"state":"Nevada",
+"options" : ["Carson City","Las Vegas","Henderson"]},
+{
+"state":"New Hampshire",
+"options" : ["Concord","Manchester","Nashua"]},
+{
+"state":"New Jersey",
+"options" : ["Trenton","Newark","Jersey City"]},
+{
+"state":"New Mexico",
+"options" : ["Santa Fe","Albuquerque","Las Cruces"]},
+{
+"state":"New York",
+"options" : ["Albany","New York City","Buffalo"]},
+{
+"state":"North Carolina",
+"options" : ["Raleigh","Charlotte","Greensboro"]},
+{
+"state":"North Dakota",
+"options" : ["Bismarck","Fargo","Grand Forks"]},
+{
+"state":"Ohio",
+"options" : ["Columbus","Cleveland","Cincinnati"]},
+{
+"state":"Oklaholma",
+"options" : ["Oklahoma City","Tulsa","Norman"]},
+{
+"state":"Oregon",
+"options" : ["Salem","Portland","Eugene"]},
+{
+"state":"Pennsylvania",
+"options" : ["Harrisburg","Philadelphia","Pittsburg"]},
+{
+"state":"Rhode Island",
+"options" : ["Providence","Warwick","Cranston"]},
+{
+"state":"South Carolina",
+"options" : ["Columbia","Charlston","North Charleston"]},
+{
+"state":"South Dakota",
+"options" : ["Pierre","Sioux Falls","Rapid City"]},
+{
+"state":"Tennessee",
+"options" : ["Nashville","Memphis","Knoxville"]},
+{
+"state":"Texas",
+"options" : ["Austin","Houston","San Antonio"]},
+{
+"state":"Utah",
+"options" : ["Salt Lake City","West Valley City","Provo"]},
+{
+"state":"Vermont",
+"options" : ["Montpelier","Burlington","Essex"]},
+{
+"state":"Virginia",
+"options" : ["Richmond","Virginia Beach","Norfolk"]},
+{
+"state":"Washington",
+"options" : ["Olympia","Seattle","Spokane"]},
+{
+"state":"West Virginia",
+"options" : ["Charleston","Huntington","Morgantown"]},
+{
+"state":"Wisconsin",
+"options" : ["Madison","Milwaukee","Green Bay"]},
+{
+"state":"Wyoming",
+"options" : ["Cheyenne","Casper","Laramie"]}]

@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+/* DIFF PUTTING IT ON HTML OR BODY? */
+html {
+  font-family: Lato,Arial;
+  font-size: 62.5%;
+
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+
+.usFlag{
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+/* Header */
+.header {
+  width: 35rem;
+  height: 4rem;
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+  padding: 1.6rem;
+  margin: 0 auto 1.5rem auto;
+  box-shadow: 0 3px 3px 3px grey;
+  text-align: center;
+
+}
+
+.header__title {
+  font-size: 3.5rem;
+  margin: auto;
+  text-shadow: 2px 2px 2px grey;
+}
+
+/* Container */
+.container {
+  background-color: white;
+  border: 1px solid black;
+  max-width: 35rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+  box-shadow: 0 3px 3px 3px grey;
+}
+
+
+/* Options */
+
+.options {
+  width:30rem;
+  margin: 0 auto;
+  height:10rem;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 1px black;
+}
+
+.options:hover {
+  box-shadow: 10px 8px 6px -6px black;
+}
+
+.stateTitle__text {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2.5rem;
+}
+
+
+/* Radiobuttons */
+
+label {
+  display: block;
+  cursor: pointer;
+  line-height: 1.8;
+  font-size: 1.0em;
+  margin: 0.25em;
+
+
+}
+
+label:not(.wrong):not(.wrongPicked):not(.correctPicked):not(.correct):hover {
+  color: #1FA3D1;
+  border: 1px dotted #1FA3D1;
+}
+
+
+
+
+
+[type="radio"] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+[type="radio"] + span::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.25em;
+  border-radius: 1em;
+  border: 0.125em solid #fff;
+  box-shadow: 0 0 0 0.15em #000;
+  margin-right: 0.75em;
+  margin-left: 0.75em;
+  transition: 0.5s ease all;
+
+}
+
+[type="radio"]:checked + span::before {
+  background: #1FA3D1;
+  color: #1FA3D1;
+  box-shadow: 0 0 0 0.25em #000;
+}
+
+
+.wrongPicked {
+  color: red;
+  border: 1px dotted red;
+}
+
+.correct {
+  color: green;
+  border: 1px dotted green;
+
+}
+
+.correctPicked {
+  color: green;
+  border: 1px dotted green;
+}
+
+
+/* Bookkeeping, buttons and scoreboard */
+.bookkeeping {
+  width: 30rem;
+  height: 18rem;
+  margin: 0 auto;
+}
+
+.bookkeeping__navigationButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookkeeping__scoreArea {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.bookkeeping__score {
+  margin-top: 3rem;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 2rem;
+  color: green;
+}
+
+
+button {
+  font-weight: 650;
+  padding: 0.75rem 3rem;
+  border-radius: 10px;
+  background-color: #f29543;
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-shadow:0px -1px #a0a09d;
+  text-decoration: none;
+  border-bottom: 5px solid #f97a09;
+  outline: none;
+
+}
+
+button:active {
+  transform: translate(0px,5px);
+-webkit-transform: translate(0px,5px);
+border-bottom: 1px solid;
+
+}
+
+button:disabled {
+  opacity:0.5;
+  cursor: default;
+}
