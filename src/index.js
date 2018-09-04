@@ -1,4 +1,7 @@
 //PRIO -
+//Get the american map again, removed agaid 
+
+
 //Styling work on header
 
 // Can I use less data?

@@ -1,13 +1,11 @@
 import React from 'react';
 import Header from './Header';
-import QuestionSelector from './QuestionSelector';
+import Question from './Question';
+
 import {buildButtonDataArray } from '../utility/utility'
 import '../styles/styles.css';
 
 import questionData from '../data/stateQuestions.json';
-
-
-
 
 export default class QuizApp extends React.Component {
   constructor(props) {
@@ -85,7 +83,7 @@ componentWillMount() {
           {
             questionData.map((question, index) => {
               return (
-                <QuestionSelector
+                <Question
                   buttonData={this.state.buttonData[index]}
                   applyClasses={this.state.applyClasses}
                   show={ index >= this.state.range && index < (this.state.range + 5)}
