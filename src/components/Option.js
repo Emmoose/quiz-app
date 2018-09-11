@@ -1,10 +1,9 @@
-
 import React from 'react';
 
 const Option = (props) => (
   <div className="option">
       <label
-        className={props.applyClasses ? props.classToBeApplied : ''}
+        className={props.classToBeApplied}
       >
         <input
           type="radio"

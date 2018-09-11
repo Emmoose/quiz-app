@@ -25,14 +25,6 @@ const buildButtonDataArray = (questionData) => {
 				options: []
 			});
 				buttonData[index]['options'] = shuffle(question.options).slice();
-				buttonData[index].options.forEach((option, optionsIndex) => {
-					if(option === buttonData[index].correctAnswer) {
-						buttonData[index]['classes'].push('correct')
-					} else {
-						buttonData[index]['classes'].push('wrong')
-					}
-				});
-
 	});
 	return buttonData;
 }

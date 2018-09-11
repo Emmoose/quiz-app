@@ -18,8 +18,8 @@ export default class Question extends React.Component {
             {
               this.props.buttonData.options.map((option, index) => (
             <Option
+
               key={index}
-              applyClasses={this.props.applyClasses}
               buttonData={this.props.buttonData}
               selected = {this.props.buttonData['selected'][index]}
               indexOption = {index}
